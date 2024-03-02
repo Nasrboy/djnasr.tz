@@ -1,0 +1,64 @@
+body{
+  background: linear-gradient(to right,#8bf394,#f09797);
+  animation: gradientAnimation 10s infinite;
+  font-family: sans-serif;
+  display: flow-root;
+}
+@keyframes gradientAnimation{
+    0%{
+        background: linear-gradient(to right,#8bf394,#f09797);
+}
+    50%{
+        background: linear-gradient(to right,#f09797,#d5f097);
+    }
+    100%{
+        background: linear-gradient(to right,#8bf394,#f09797);
+    }
+}
+h1{
+    text-transform: uppercase;
+    color: brown;
+    font-size:   40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+button{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #e2bf20;
+}
+
+.intro{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:rgb(176, 175, 221);
+    background-color: rgb(71, 40, 2);
+
+}
+.download{
+    padding-right: 0cqb;
+    background-color: rgb(24, 77, 0);
+    border-radius: 6px;
+    color:aqua;
+}
+p{
+    color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 5px;
+}
+a{
+    color: red;
+}
+footer{
+    text-align: center ;
+}
