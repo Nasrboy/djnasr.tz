@@ -75,15 +75,17 @@ footer{
     text-align: center ;
 }
 .info{
-    color: rgb(196, 192, 148);
+    color: rgb(221, 214, 134);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 5px 5px;
-    box-sizing: content-box;
-    background-image: url(cover.jpg);
+    padding: 20px;
+    background-color: #542275;
     text-align: justify;
     text-justify: newspaper;
     text-transform: uppercase;
-    box-shadow: 9px 6px 40px rgb(255, 0, 0);
+    box-shadow: 9px 5px 40px rgb(255, 0, 0);
+    border-radius: 10;
+    border-color: #f09797;
+    
 }
 a{
     text-overflow: ellipsis;
