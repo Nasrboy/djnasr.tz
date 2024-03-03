@@ -18,25 +18,36 @@ body{
 h1{
     text-transform: uppercase;
     color: brown;
-    font-size:   40px;
+    font-size:   41px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
+    border-color: #a1860b;
+    border-radius: 5px;
 }
 button{
     display: inline-block;
-    background-color: #007bff;
+    background-color: #624277;
     color: #fff;
     padding: 10px 10px;
     text-decoration: none;
-    border-radius: 13px;
-    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border-color: #a1860b; 
+    border-left: 5px;
+    border-right: #8bf394;
 
 }
 button:hover{
-    background-color: #e2bf20;
+    background-color: #418638c4;
+    transition: 1s;
+    color: rgb(255, 104, 104);
+    cursor: pointer;
 }
+
 
 .intro{
     padding: 10px 20px;
@@ -46,19 +57,42 @@ button:hover{
 
 }
 .download{
-    padding-right: 0cqb;
-    background-color: rgb(24, 77, 0);
+    padding-top: 5px 5px;
+    background-color: rgb(77, 63, 0);
     border-radius: 6px;
     color:aqua;
+    box-shadow: 9px 6px 40px rgba(255, 0, 0, 0.5);
 }
 p{
-    color: aqua;
+    color: rgb(228, 211, 21);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 5px 5px;
-}
-a{
-    color: red;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-decoration: wavy;
 }
 footer{
     text-align: center ;
+}
+.info{
+    color: rgb(196, 192, 148);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 5px;
+    box-sizing: content-box;
+    background-image: url(cover.jpg);
+    text-align: justify;
+    text-justify: newspaper;
+    text-transform: uppercase;
+    box-shadow: 9px 6px 40px rgb(255, 0, 0);
+}
+a{
+    text-overflow: ellipsis;
+    color: #ffffff;
+    border-color: #ffffff;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #8bf394;
+    direction: rtl;
 }
