@@ -1,0 +1,48 @@
+.bg-gradient{
+  background: linear-gradient(to right,#8bf394,#f09797);
+  animation: gradientAnimation 10s infinite;
+  font-family: sans-serif;
+  display: flow-root;
+}
+@keyframes gradientAnimation{
+    0%{
+        background: linear-gradient(to right,#8bf394,#f09797);
+}
+    50%{
+        background: linear-gradient(to right,#f09797,#d5f097);
+    }
+    100%{
+        background: linear-gradient(to right,#8bf394,#f09797);
+    }
+}
+.container-c{
+  box-sizing: border-box;
+  width: 460px;
+  margin: 0 auto;
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#job{
+  font-family: monospace;
+  text-align: center;
+  font-style: italic;
+  border-right: 1px solid rgba(123, 123, 123, 0.5) ;
+  font-size: 2rem;
+  background: linear-gradient(300deg,blue,dodgerblue,lime ,tomato,aliceblue,red,yellow);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  white-space: nowrap;
+  transition: animation .9s;
+  animation: typeWriter 5000ms infinite steps(50) ;
+}
+@keyframes typeWriter {
+  0%{width: 0;}
+  50%{width: 100%;}
+  100%{width: 0;}
+
+}

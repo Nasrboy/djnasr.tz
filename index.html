@@ -4,125 +4,166 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1">
         <meta name="author" content="Nasr Hassan Mpalang'ombe">
-        <title>nasr platform</title>
-        <link rel="stylesheet" href="styles.css">
-        <style>
-            .typewriter-text {
-              font-family: monospace;
-              font-size: 30px;
-              /* background-color: rgb(235, 235, 198); */
-              color: rgba(255, 38, 0, 0.411);
-              font-weight: bold;
-              /* text-align: center; */
-              overflow: hidden;
-              white-space: nowrap;
-              /* border-right: 1px solid ; */
-              animation: typewriter 10s steps(50) infinite;
-            }
-          
-            @keyframes typewriter {
-              from {
-                width: 0;
-              }
-              to {
-                width: 100%;
-              }
-            }
-          </style>
+        <title>Nasr Platform</title>
+        <link rel="stylesheet" href="styles/app.css">
+        <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
     </head>
-    <body>
-        <h1 ><strong>nasr music platform</strong></h1>
-       <div class="intro">
-        Welcome to Nasr dj platform, In this platform
-         you will be able to download 
-        all latest beats made by nasr dj <br>
-       
-        <a href="me.html"><i>Learn more about me...</i></a>
+    <body class="bg-dark text-light">
+        <h1 class="text-center p-3 bg-success text-light sticky-top"><strong>NASR MUSIC PLATFROM</strong></h1>
+        <div class="text-center">
+            Welcome to Nasr dj platform, In this platform
+            you will be able to download 
+            all latest beats made by nasr dj <br>
+        
+            <!-- <a href="pages/me.html"><i>Learn more about me...</i></a> -->
        </div>
-    <section>
-        <div class="typewriter-text">Deejay Nasr is the best in tanzania</div>
-        <hr style="border: 3px groove;">
-        <h2>DOWNLOAD MY BEATS BELOW</h2>
-       <aside> <div class="download">
-            <P>vigoma samia  beat 2024</P>
-            <audio controls>
-                <source src="vigoma samia  beat 2024.mp3" type="audio/mpeg">
-            </audio>
-           <p><a href="vigoma samia  beat 2024.mp3" download><button>download audio</button></a></p>
-           </div>
-        <div class="download">
-            <P>uzuni wa ue beat</P>
-            <audio controls>
-                <source src="huzuni  wa UE.mp3" type="audio/mpeg">
-            </audio>
-           <p><a href="huzuni  wa UE.mp3" download><button>download audio</button></a></p>
-           </div>
-        
-        <div class="download">
-            <P>bongo mix old</P>
-            <audio controls>
-                <source src="dee nasr.mp3" type="audio/mpeg">
-            </audio>
-           <p><a href="dee nasr.mp3" download><button>download audio</button></a></p>
-           </div>
-        
-    <div class="download">
-        <p>Abochi-mama singel beat</p>
-        <audio controls>
-            <source src="nasr abochi trial.mp3" type="audio/mpeg">
-        </audio>
-        <p><a href="nasr abochi trial.mp3" download><button>download audio</button></a></p>
-    </div>
-    <div class="download">
-        <P>Instrumental new world</P>
-        <audio controls>
-            <source src="PRODUCED BY NASR EMOTIONAL TALENT.mp3" type="audio/mpeg">
-        </audio>
-        <p><a href="PRODUCED BY NASR EMOTIONAL TALENT.mp3" download><button>download audio</button></a></p>
-    </div>
-    <div class="download">
-        <P>faded-alan-walker singeli beat</P>
-        <audio controls>
-            <source src="faded by nasr deejay 2024.mp3" type="audio/mpeg">
-        </audio>
-        <p><a href="faded by nasr deejay 2024.mp3" download><button>download audio</button></a></p>
-    </div>
-    <div class="download">
-        <P>Piano singeli-forgive-our-trespasses</P>
-        <audio controls>
-            <source src="piano deejay nasr _Forgive_Our_Trespasses.mp3" type="audio/mpeg">
-        </audio>
-       <p><a href="piano deejay nasr _Forgive_Our_Trespasses.mp3" download><button>download audio</button></a></p>
-    
-    </div>
-       </section>
-  
-    <span>
-        <h4 id="demo" >Thanks! for viewing and downloading my Beats<br>
-    kindly subscribe my beats</h4>
-        <button type="button" onclick="myFunction()">Subscribe</button>
-        <br> <h4>Below is my Blog<br>Just click on Button Below</h4>
-    </span>
-       <a href="http://nasrdj.blogspot.com/"><button><I><B>Click To Visit My Blog</B></I></button> </a><br>
-       <h4>
-        NB: This is static website, only web developer can modify this webpage , Hence does not depend on users<br>
-        For More information Please contact the web developer below:<br>
-   </a>
-      <br><a href="https://wa.me/255620656604"><button>WhatsApp Only</button></a>
-       </h4>
-       <h4>Check out my latest videos on TikTok!</h4>
-       <a href="https://www.tiktok.com/@nasrdeejay_tz" target="_blank">
-           <img src="tiktok_logo.png" alt="TikTok Logo" width="150" height="50">
-       </a>
 
-    <script>
-        function myFunction() {
-          document.getElementById("demo").innerHTML = "Thanks for subcribing my beats";
-        }
-        </script>
-  <footer>
-        &copy; 2024 Nasr web design.All rights reserved 
+        <div class="container-c">
+            <h3 id="job">I am Full Stack Developer </h3>
+        </div>
+        <div class="container mt-5">
+            <h4 class="text-center">DOWNLOAD MY BEATS BELOW</h4>
+
+        <div class="row mt-3 text-light">
+            <div class="col-md-6">
+                <div class="download bg-danger p-2 rounded my-3">
+                    <P>Vigoma samia  beat 2024</P>
+                    <audio controls>
+                        <source src="music/vigoma samia  beat 2024.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/vigoma samia  beat 2024.mp3" download><button class="btn btn-outline-warning ">download audio</button></a></p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="download bg-danger p-2  rounded my-3">
+                    <P class="">Uzuni wa UE beat</P>
+                    <audio controls>
+                        <source src="music/huzuni  wa UE.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/huzuni  wa UE.mp3" download><button class="btn btn-outline-warning">download audio</button></a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 text-light">
+            <div class="col-md-6">
+                <div class="download bg-danger p-2 rounded my-3">
+                    <P>Faded Version in singeli</P>
+                    <audio controls>
+                        <source src="music/faded by nasr deejay 2024.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/faded by nasr deejay 2024.mp3" download><button class="btn btn-outline-warning ">download audio</button></a></p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="download bg-danger p-2  rounded my-3">
+                    <P class="">Emotional Beat</P>
+                    <audio controls>
+                        <source src="music/PRODUCED BY NASR EMOTIONAL TALENT.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/PRODUCED BY NASR EMOTIONAL TALENT.mp3" download><button class="btn btn-outline-warning">download audio</button></a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-3 text-light">
+            <div class="col-md-6">
+                <div class="download bg-danger p-2 rounded my-3">
+                    <P>Forgive our trespasses singel Version</P>
+                    <audio controls>
+                        <source src="music/piano deejay nasr _Forgive_Our_Trespasses.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/music/piano deejay nasr _Forgive_Our_Trespasses.mp3" download><button class="btn btn-outline-warning ">download audio</button></a></p>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="download bg-danger p-2 shadow rounded my-3">
+                    <P class="">Abochi Singeli Version</P>
+                    <audio controls>
+                        <source src="music/nasr abochi trial.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/nasr abochi trial.mp3" download><button class="btn btn-outline-warning">download audio</button></a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 text-light">
+            <div class="col-md-12 ">
+                <div class="download bg-danger p-2 shadow rounded my-3">
+                    <P class="">Bongo Mix</P>
+                    <audio controls>
+                        <source src="music/dee nasr_0.mp3" type="audio/mpeg">
+                    </audio>
+                   <p><a href="music/dee nasr_0.mp3" download><button class="btn btn-outline-warning">download audio</button></a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="my-3  p-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 id="demo" >Thanks! for viewing and downloading my Beats kindly subscribe</h4>
+                    <button type="button" class="btn btn-outline-primary my-2" onclick="myFunction()">Subscribe</button>
+                    <h4>Below is my Blog Just click on Button Below</h4>
+                    <a href="http://nasrdj.blogspot.com/"><button class="btn btn-secondary"><I><B>Click To Visit My Blog</B></I></button> </a>
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <h3>LOGIN</h3>
+                        <div class="form-group">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" id="username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" id="password" class="form-control">
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="submit" value="Login" name="" id="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row my-5 text-center">
+                <div class="col-md-6 mt-3">
+                    <a href="https://wa.me/255620656604"><button class="btn btn-outline-secondary">WhatsApp</button></a>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="tik-tok">
+                
+                        <a href="https://www.tiktok.com/@nasrdeejay_tz" target="_blank">
+                            <button class="btn btn-outline-secondary">Tiktok</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+       
+        
+        
+
+    
+        <footer class="text-center p-4  my-4">
+            &copy; 2024 Nasr Tech Industry.All rights reserved 
        </footer>
+        </div>
+        
+        
+        
+
+  
+        
+
+      
+
+       <script src="js/app.js"></script>
+       <script src="boostrap/js/bootstrap.bundle.min.js"></script>
+
     </body>
-   
 </html>
